@@ -1,3 +1,4 @@
+import { CursosModule } from './cursos/cursos.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,11 +9,12 @@ import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MeuPrimeiroComponent
+    MeuPrimeiroComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CursosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
